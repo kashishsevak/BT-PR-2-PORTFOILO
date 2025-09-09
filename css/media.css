@@ -1,0 +1,31 @@
+/* sm  */
+@media (min-width:576px) {}
+
+/* md  */
+@media (min-width:768px) {
+    .service .service-content {
+        transform: translateY(120px);
+    }
+
+    .service .service-content p{
+        font-size: 18px !important;
+    }
+    .info{
+        width: 60%;
+    }
+}
+
+/* lg  */
+@media (min-width:992px) {
+}
+
+/* xl  */
+@media (min-width:1200px) {
+    .process .process-content {
+        transform: translateY(160px);
+    }
+
+    .process .process-content p{
+        font-size: 18px !important;
+    }
+}

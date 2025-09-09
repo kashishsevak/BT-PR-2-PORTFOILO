@@ -1,0 +1,136 @@
+html body {
+    font-family: 'Work Sans';
+}
+
+header,.process,.icon,.service {
+    background-color: #f0f1f3;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+}
+
+.carousel-indicators{
+    z-index: 0 !important;
+}
+
+.hero {
+    background: radial-gradient(circle at 12% 100%, rgba(252, 228, 188, 0.96) 1%, rgba(254, 229, 185, 0.96) 5px, rgba(0, 0, 0, 0) 15%), radial-gradient(circle at 95% -15%, rgba(234, 98, 255, 0.4) 5%, rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 100% center, rgba(223, 255, 247, 0.698) 2%, rgba(0, 0, 0, 0) 35%);
+}
+
+.btn-primary{
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:hover:hover {
+    transform: scale(1.03);
+}
+
+.btn-primary{
+    background-color: #a53dff;
+    border: 1px solid #a53dff;
+}
+
+.btn-primary:hover{
+    background-color: #a53dff;
+    border: 1px solid #a53dff;
+}
+
+.bg-highlight {
+    background: linear-gradient(to top, #ffd3d3 40%, transparent 40%);
+}
+
+
+.process .card {
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.prcess .icon,.info .icon {
+    color: #a53dff;
+    transition: all 0.3s ease;
+}
+
+.process .card:hover .icon,.info:hover .icon {
+    background-color: #a53dff;
+    color: #fff;
+}
+
+.process .card:hover,.portfolio .card:hover,.blog .card:hover,.service-card:hover,.info:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.portfolio .card,.service-card,.info{
+    transition: all 0.3s ease;
+}
+
+.portfolio .card .btn{
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio .card .btn:hover{
+    padding-right: 20px;
+    color: #a53dff;
+    border: 1px solid #a53dff !important;
+}
+
+.portfolio .card .btn:hover i{
+    transition: all 0.3s ease;
+}
+
+.portfolio .card .btn:hover i{
+    padding: 0 10px;
+}
+
+.project, footer{
+    background-color: #101828;
+}
+
+.service-card:hover{
+    border-left: 5px solid #a53dff;
+}
+
+.social-icon li{
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon li:hover{
+    background: #a53dff;
+}
+
+.social-icon li:hover a{
+    color: #fff;
+}
+
+.social-icon li a{
+    color: #a53dff;
+}
+
+.form .form-control:focus{
+    color: #a53dff;
+    border-bottom: 2px solid #a53dff;
+}
+
+.form .form-control:focus::placeholder{
+    color: #a53dff;
+}
+
+.footer-content ul li a::before{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer-content ul li a:hover::before{
+    opacity: 1;
+    width: 100%;
+}
