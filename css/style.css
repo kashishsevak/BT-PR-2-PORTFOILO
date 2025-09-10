@@ -120,12 +120,11 @@ header,.process,.icon,.service {
 
 .footer-content ul li a::before{
     content: '';
-    width: 100%;
+    width: 0;
     height: 3px;
     background-color: #fff;
     position: absolute;
     top: 100%;
-    left: 0;
     opacity: 0;
     transition: all 0.3s ease-in-out;
 }
@@ -133,4 +132,5 @@ header,.process,.icon,.service {
 .footer-content ul li a:hover::before{
     opacity: 1;
     width: 100%;
+    right: 0;
 }
